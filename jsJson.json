@@ -1,0 +1,131 @@
+{
+	"Version": "1.0.0",
+	"Servers": [{
+			"Name": "SG-Test-1",
+			"IP": "206.189.82.235",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "VIP",
+			"ProxySettings": {
+				"Squid": "206.189.82.235",
+				"Port": "8080"
+			}
+		},
+		{
+			"Name": "SG-2",
+			"IP": "128.199.200.24",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "VIP",
+			"ProxySettings": {
+				"Squid": "104.248.148.3",
+				"Port": "8000"
+			}
+		},
+		{
+			"Name": "SG-3",
+			"IP": "128.199.200.24",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "PREMIUM",
+			"ProxySettings": {
+				"Squid": "104.248.148.3",
+				"Port": "8000"
+			}
+		},
+		{
+			"Name": "SG-4",
+			"IP": "128.199.200.24",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "PREMIUM",
+			"ProxySettings": {
+				"Squid": "104.248.148.3",
+				"Port": "8000"
+			}
+		},
+		{
+			"Name": "SG-5",
+			"IP": "128.199.200.24",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "PRIVATE",
+			"ProxySettings": {
+				"Squid": "104.248.148.3",
+				"Port": "8000"
+			}
+		},
+		{
+			"Name": "SG-6",
+			"IP": "128.199.200.24",
+			"Port": "1194",
+			"SSLEnabled": true,
+			"Category": "PRIVATE",
+			"ProxySettings": {
+				"Squid": "104.248.148.3",
+				"Port": "8000"
+			}
+		}
+	],
+	"Networks": [{
+			"Name": "GTM-GS",
+			"Info": "Do not torrent",
+			"Payload": {
+				"Injection": 2,
+				"Method": "POST",
+				"Query": 0,
+				"Url": "O/w1PT01OjP8MT07",
+				"Host": true,
+				"Online-Host": true,
+				"Forward-Host": true,
+				"Reverse-Proxy": false,
+				"Keep-Alive": true
+			}
+		},
+		{
+			"Name": "SMART-Facebook",
+			"Info": "Register to ALLOUT30",
+			"Payload": {
+				"Injection": 2,
+				"Method": "POST",
+				"Query": 0,
+				"Url": "O/w1PT01OjP8MT07",
+				"Host": true,
+				"Online-Host": true,
+				"Forward-Host": true,
+				"Reverse-Proxy": false,
+				"Keep-Alive": true
+			}
+		},
+		{
+			"Name": "TNT-WATTPAD",
+			"Info": "Register to WATTPAD",
+			"Payload": {
+				"Injection": 2,
+				"Method": "GET",
+				"Query": 0,
+				"Url": "O/w1PT01OjP8MT07",
+				"Host": true,
+				"Online-Host": true,
+				"Forward-Host": true,
+				"Reverse-Proxy": false,
+				"Keep-Alive": true
+			}
+		},
+		{
+			"Name": "SUN-VIBER",
+			"Info": "Register to Viber",
+			"Payload": {
+				"Injection": 2,
+				"Method": "HEAD",
+				"Query": 0,
+				"Url": "O/w1PT01OjP8MT07",
+				"Host": true,
+				"Online-Host": true,
+				"Forward-Host": true,
+				"Reverse-Proxy": false,
+				"Keep-Alive": true
+			}
+		}
+	]
+}
