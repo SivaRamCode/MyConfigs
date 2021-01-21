@@ -1,6 +1,9 @@
 //Note: Do not leave the Squid Proxy and Port Empty
 {
-    "Version":"2",
+    "UpdateVersion": 0,
+    "ChangeVersion": "Config Version 1.0",
+    "WhatsNew": "Added fastest Server",
+    "ReleaseNotes": [],
 	"Servers": [{
 		"Name": "SG-Test-1",
 		"IP":"206.189.82.235",
