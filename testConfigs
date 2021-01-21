@@ -1,6 +1,6 @@
 //Note: Do not leave the Squid Proxy and Port Empty
 {
-    "Version":"1.0.0",
+    "Version":"2",
 	"Servers": [{
 		"Name": "SG-Test-1",
 		"IP":"206.189.82.235",
